@@ -21,3 +21,6 @@ filename = input('Filename : ')
 #generate and save audio file from the source text as .mp3 format
 to_spleech = tts(text = inpText, lang = inpLang)
 to_spleech.save(filename + '.mp3')
+
+#print out success messeage
+print('Successfully generated audio file !')
