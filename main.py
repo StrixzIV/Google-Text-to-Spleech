@@ -2,7 +2,10 @@
 from gtts import gTTS as tts
 import os
 
-#clear terminal
+#setup the save folder directory
+os.system('cls' if os.name == 'nt' else 'clear')
+print('Paste your folder path directory that you want to save your file')
+os.chdir(input('save to : '))
 os.system('cls' if os.name == 'nt' else 'clear')
 
 #welcome text
