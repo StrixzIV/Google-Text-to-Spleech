@@ -1,5 +1,6 @@
 #import the libary for the project
 from gtts import gTTS as tts
+from tqdm import tqdm
 import os
 
 #setup the save folder directory
@@ -21,10 +22,13 @@ inpText = input('Input your word here : ')
 #input filename
 filename = input('Filename : ')
 
-#generate and save audio file from the source text as .mp3 format
+#generate audio file from the source text as .mp3 format
 print('Generating...')
 to_spleech = tts(text = inpText, lang = inpLang)
-to_spleech.save(filename + '.mp3')
+
+#save audio file as .mp3 format
+for i in tqdm(range(1)):
+    to_spleech.save(filename + '.mp3')
 
 #print out success messeage
 print('Successfully generated audio file !')
