@@ -16,6 +16,7 @@ Use the package manager pip to install gTTS libary for the project
 
 ```bash
 pip install gTTS
+pip install tqdm
 ```
 
 ## Usage
