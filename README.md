@@ -8,15 +8,15 @@ You can check the supported languages **[here](https://cloud.google.com/text-to-
 
 See more about **[API Documentation](https://cloud.google.com/text-to-speech/docs/apis)**
 
-## Install the libary
+## Dependencies & Tools
 
-Use pip to install **[gTTS](https://github.com/pndurette/gTTS)** and **[tqdm](https://github.com/tqdm/tqdm)** for the project.
+You can install all of the dependencies by running this command:
 
-```bash
-pip install gTTS tqdm
+```sh
+pip install --upgrade -r requirements.txt
 ```
 
-## Usage
+## How to use
 
 Open the terminal at the project folder and run the python file by command:
 
